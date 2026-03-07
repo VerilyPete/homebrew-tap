@@ -1,13 +1,13 @@
 class Catboard < Formula
   desc "Copy file contents to clipboard with PDF text extraction and OCR"
   homepage "https://github.com/VerilyPete/catboard"
-  version "0.2.6"
+  version "0.2.7"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/VerilyPete/catboard/releases/download/v0.2.6/catboard-v0.2.6-aarch64-apple-darwin.tar.gz"
-      sha256 "778b892ef725b7d1e0fc11e745187a361bc316539a1ee2e560183d9758161fc8"
+      url "https://github.com/VerilyPete/catboard/releases/download/v0.2.7/catboard-v0.2.7-aarch64-apple-darwin.tar.gz"
+      sha256 "00723fb7311ce30f3251d7bfe236b6da6b93c002018c8f1d8f2aebb9108eaeca"
     end
   end
 
