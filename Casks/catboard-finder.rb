@@ -8,6 +8,7 @@ cask "catboard-finder" do
   homepage "https://github.com/VerilyPete/catboard"
 
   depends_on macos: ">= :sequoia"
+  depends_on formula: "VerilyPete/tap/catboard"
 
   app "CatboardFinder.app"
 
@@ -17,8 +18,5 @@ cask "catboard-finder" do
 
     You can also add the Catboard button to your Finder toolbar:
     right-click the toolbar > Customize Toolbar > drag Catboard in.
-
-    For the CLI tools, also install the formula:
-      brew install VerilyPete/tap/catboard
   EOS
 end
